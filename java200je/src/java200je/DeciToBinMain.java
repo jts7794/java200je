@@ -33,5 +33,21 @@ public class DeciToBinMain {
 		System.out.printf("13 : left rotate :%s%n",toBinaryString(rotateLeft(a,3)));
 		System.out.printf("14 : right rotate:%s%n",toBinaryString(rotateRight(a,3)));
 	}
-
+/* 콘솔 확인
+1 : 69 to 2진수:1000101
+2 : 69 to 2진수:11111111111111111111111110111011
+3 : 69 to 8진수:105
+4 : 69 to 8진수:37777777673
+5 : 69 to 16진수:45
+6 : 69 to 16진수:ffffffbb
+7 : 65.65 to 16진수:0x1.069999999999ap6
+8 : 65.65 to 16진수:-0x1.069999999999ap6
+9 : 1
+10 : 69reverse 1157627904
+                  01234567890123456789012345678901
+11 : binary      :1000101
+12 : reverse     :1000101000000000000000000000000
+13 : left rotate :1000101000
+14 : right rotate:10100000000000000000000000001000
+ */
 }
